@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+	width: 1100px;
+	border: 1px solid #000000;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.header {
+	height: 133px;
+	background: #333333;
+}
+.header .logo {
+	padding-left: 71px;
+	padding-top: 43px;
+	display: inline-block;
+}
+.header .logo .logo-text {
+	font-size: 60px;
+	font-family: "Myriad Pro";
+	line-height: 16px;
+	color: #eeeeee;
+}
+
+.header .nav-menu {
+	float: right;
+    padding-right: 71px;
+    padding-top: 46px;
+}
+.header .nav-menu .menu-list {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	font-size: 16px;
+	font-family: "Arial";
+	line-height: 42px;
+}
+.header .nav-menu .menu-list .link {
+	color: #eeeeee;
+	text-decoration: none;
+}
+.header .nav-menu .menu-list .link:after {
+	content: "--";
+	padding: 10px;
+}
+.header .nav-menu .menu-list .last-link:after {
+	content: "";
+}
+.header .nav-menu .menu-list .link:visited {
+	color: #0f94c9;
+}
+
+
+.wrapper {
+	padding: 0 71px;
+}
+.wrapper .slang {
+	height: 206px;
+	border-bottom: 3px dotted #cccccc;
+}
+.wrapper .slang-slogan {
+	font-size: 60px;
+	font-family: "Myriad Pro";
+	font-style: bold;
+	color: #333333;
+	font-weight: 900;
+	line-height: 16px;
+	padding-top: 79px;
+    padding-bottom: 42px;
+}
+.wrapper .slang-slogan .symbol {
+	color: #00bff3;
+}
+.wrapper .slag-motto {
+	font-size: 50px;
+	font-family: "Myriad Pro";
+	line-height: 16px;
+	color: #bbbbbb;
+}
+
+.preview-text-description {
+	border-bottom: 3px dotted #cccccc;
+	font-family: "Myriad Pro";
+	font-size: 34px;
+	line-height: 42px;
+	color: #555555;
+}
+.preview-text-description .text-information {
+	padding: 33px 0 44px;
+}
+.preview-text-description .slogan-information {
+	font-weight: 900;
+	color: #747474;
+}
+
+.product-information  {
+	display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+    padding: 48px 0;
+    border-bottom: 3px dotted #cccccc;
+}
+.product-information .information-block {
+	width: 280px;
+	height: 350px;
+	background: #00aeef;
+	box-shadow:  5px 5px 5px rgba(122,122,122,0.5);
+	color: #ffffff;
+}
+.product-information .information-block .title {
+	height: 80px;
+	border-bottom: 2px dotted #ffffff;
+	font-size: 40px;
+	font-family: "Myriad Pro";
+}
+.product-information .information-block .title .title-word {
+    padding: 20px 25px;
+    text-align: center;
+}
+.product-information .information-block .content-product {
+	padding: 25px 31px 25px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Arial";
+	line-height: 21px;
+	letter-spacing: -0.5px;
+}
+.product-information .information-block .button-link {
+	display: inline-block;
+	width: 232px;
+	height: 41px;
+	background: #0076a3;	
+	box-shadow: inset 0 0 2px #000000;
+	font-size:18px;
+	font-family: "Myriad Pro";
+	text-align: center;
+	margin: 0 25px;
+}
+.product-information .information-block .button-link .product-link {
+	color: #eeeeee;
+	text-decoration: none;
+	line-height: 41px
+}
+
+
+.additional-info{
+	border-bottom:  3px dotted #cccccc;
+}
+
+.blog-review {
+	position: relative;
+	width: 50%;
+	padding: 37px 0 45px;
+	float: left;
+}
+.blog-review:after {
+    content: "";
+    border-right: 3px dotted #cccccc;
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    right: 0;
+}
+.blog-review .title {
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	line-height: 42px;
+	color: #555555;
+	
+}
+.blog-review .review-item  {
+	font-size: 14px;
+	font-family: "Arial";
+	color: #555555;
+    padding-top: 30px;
+}
+
+.blog-review .review-item .image {
+	display: inline-block;
+    float: left;
+}
+.blog-review .review-item .description {
+    display: inline-block;
+    width: 360px;
+    padding-left: 25px;
+}
+.blog-review .review-item .description .text {
+	line-height: 21px;
+	padding-bottom: 11px;
+	display: block;
+}
+.blog-review .review-item .description .athor {
+	line-height: 18px;
+	font-weight: bold;
+	display: block;
+}
+.blog-review .review-item .description .organization {
+	line-height: 18px;
+	display: block;
+}
+.blog-review .review-item .description .organization .link {
+	color: #00aeef;
+	text-decoration: none;
+}
+
+.featured-project {
+	padding: 37px 0 45px 0px;
+    display: inline-block;
+    width: 50%;
+}
+.featured-project .title {
+	padding-left: 45px;
+	font-size: 24px;
+    font-family: "Myriad Pro";
+    line-height: 42px;
+    color: #555555;
+}
+.featured-project .new-project {
+	padding-top: 25px;
+    padding-left: 45px;
+}
+.featured-project .new-project .name-project {
+	font-size: 20px;
+    color: #888888;
+    font-family: "Arial";
+    line-height: 16px;
+    display: block;
+    padding-bottom: 15px;
+}
+.featured-project .new-project .image {
+	box-shadow: 5px 5px 5px rgba(122,122,122,0.5);
+}
+.featured-project .new-project .text {
+	padding: 20px 0 15px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: #555555;
+    line-height: 21px;
+}
+.featured-project .new-project .link {
+	text-decoration: none;
+    color: #00aeef;
+    font-size: 14px;
+    font-family: "Arial";
+    line-height: 20px;
+}
+
+
+.footer {
+	padding: 19px 0;
+}
+.footer .copyright {
+	font-size: 16px;
+    font-family: "Arial";
+    line-height: 16px;
+}

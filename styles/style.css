@@ -14,12 +14,10 @@ body, html {
 }
 
 .header {
-	height: 133px;
 	background: #333333;
+	padding: 43px 71px 45px;
 }
 .header .logo {
-	padding-left: 71px;
-	padding-top: 43px;
 	display: inline-block;
 }
 .header .logo .logo-text {
@@ -31,8 +29,6 @@ body, html {
 
 .header .nav-menu {
 	float: right;
-    padding-right: 71px;
-    padding-top: 46px;
 }
 .header .nav-menu .menu-list {
 	display: flex;
@@ -53,7 +49,7 @@ body, html {
 .header .nav-menu .menu-list .last-link:after {
 	content: "";
 }
-.header .nav-menu .menu-list .link:visited {
+.header .nav-menu .menu-list .link:hover {
 	color: #0f94c9;
 }
 
@@ -62,8 +58,8 @@ body, html {
 	padding: 0 71px;
 }
 .wrapper .slang {
-	height: 206px;
 	border-bottom: 3px dotted #cccccc;
+	padding: 79px 0 42px;
 }
 .wrapper .slang-slogan {
 	font-size: 60px;
@@ -72,8 +68,7 @@ body, html {
 	color: #333333;
 	font-weight: 900;
 	line-height: 16px;
-	padding-top: 79px;
-    padding-bottom: 42px;
+
 }
 .wrapper .slang-slogan .symbol {
 	color: #00bff3;
@@ -83,6 +78,7 @@ body, html {
 	font-family: "Myriad Pro";
 	line-height: 16px;
 	color: #bbbbbb;
+	padding-top: 38px;
 }
 
 .preview-text-description {

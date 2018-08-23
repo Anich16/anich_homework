@@ -55,11 +55,11 @@ body, html {
 
 
 .wrapper {
-	padding: 0 71px;
+	padding: 79px 71px 0;
 }
 .wrapper .slang {
 	border-bottom: 3px dotted #cccccc;
-	padding: 79px 0 42px;
+	padding-bottom: 42px;
 }
 .wrapper .slang-slogan {
 	font-size: 60px;
@@ -144,7 +144,9 @@ body, html {
 	text-decoration: none;
 	line-height: 41px
 }
-
+.product-information .information-block .button-link .product-link:after {
+	content: " >>";
+}
 
 .additional-info{
 	border-bottom:  3px dotted #cccccc;
@@ -247,7 +249,9 @@ body, html {
     font-family: "Arial";
     line-height: 20px;
 }
-
+.featured-project .new-project .link:after {
+	content: " >>";
+}
 
 .footer {
 	padding: 19px 0;
